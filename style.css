@@ -33,3 +33,29 @@
   flex: 1;
   justify-content: center;
 }
+
+.quote {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10px; */
+  margin: 10px;
+}
+
+.right {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.float-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  align-self: center;
+}
